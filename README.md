@@ -64,5 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Connect2id is a company surfaced via the API Evangelist harvest backlog (source: market-layer-gap) and added to the network as a stub for full-pipeline profiling.
-- https://connect2id.com
+Connect2id is the maker of the Connect2id server, an OpenID Connect and OAuth 2.0 authorization server, and the open-source Nimbus OAuth 2.0 / OpenID Connect SDK and Nimbus JOSE+JWT libraries for Java.
+
+**Areas:** Company · OpenID Connect · Authentication · Identity
+
+## Connect2id on APIs.io
+
+Everything profiled for Connect2id is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/connect2id/](https://apis.io/providers/connect2id/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [Connect2id Server Authorization API](https://apis.io/apis/connect2id/authorization/) — OAuth 2.0 / OpenID Connect authorization endpoint.
+- [Connect2id Server Token API](https://apis.io/apis/connect2id/token/) — OAuth 2.0 token endpoint.
+- [Connect2id Server UserInfo API](https://apis.io/apis/connect2id/userinfo/) — OpenID Connect UserInfo endpoint.
+- [Connect2id Server Client Registration API](https://apis.io/apis/connect2id/client-registration/) — OAuth 2.0 dynamic client registration and management.
+- [Connect2id Server Token Introspection API](https://apis.io/apis/connect2id/token-introspection/) — OAuth 2.0 token introspection (RFC 7662).
+- [Connect2id Server Token Revocation API](https://apis.io/apis/connect2id/token-revocation/) — OAuth 2.0 token revocation (RFC 7009).
+- [Connect2id Server Pushed Authorization Requests API](https://apis.io/apis/connect2id/par/) — PAR endpoint (RFC 9126).
+- [Connect2id Server CIBA API](https://apis.io/apis/connect2id/ciba/) — Client-Initiated Backchannel Authentication.
+- [Connect2id Server Discovery API](https://apis.io/apis/connect2id/discovery/) — OpenID Provider metadata.
+- [Connect2id Server JWK Set API](https://apis.io/apis/connect2id/jwk-set/) — Public JSON Web Key set.
+- [Connect2id Server Logout API](https://apis.io/apis/connect2id/logout/) — OpenID Connect logout / end session.
+- [Connect2id Server Check Session API](https://apis.io/apis/connect2id/check-session/) — OpenID Connect session management iframe.
+- [Connect2id Server Federation Client Registration API](https://apis.io/apis/connect2id/federation-client-registration/) — OpenID Federation client registration.
+- [Connect2id Server Federation Entity Configuration API](https://apis.io/apis/connect2id/federation-entity-configuration/) — OpenID Federation entity configuration.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Connect2Id Authentication](https://apis.io/security/connect2id/connect2id-authentication/)
+- [Connect2Id Domain Security](https://apis.io/security/connect2id/connect2id-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://connect2id.com)
+- [Documentation](https://connect2id.com/docs)
+- [Getting started](https://connect2id.com/products/server/docs/quick-start)
+- [API reference](https://connect2id.com/products/server/docs/api/)
+- [Support](https://connect2id.com/products/server/license-and-support)
+- [Changelog](https://connect2id.com/products/server/docs/release-notes)
+- [Blog](https://connect2id.com/blog)
+- [Terms of service](https://connect2id.com/terms-and-conditions)
+- [Privacy policy](https://connect2id.com/privacy-statement)
+- [GitHub](https://github.com/connect2id)
+
+## API Evangelist rating
+
+**Kin Score 25.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/connect2id/](https://apis.io/providers/connect2id/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Connect2id: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/connect2id/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
